@@ -1,3 +1,7 @@
 [build]
   command = "echo 'No build command needed'"
   publish = "."
+
+[context.production]
+  command = "echo 'No build command needed'"
+  publish = "."
